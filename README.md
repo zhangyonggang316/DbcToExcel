@@ -1,6 +1,6 @@
 # DbcToExcel
 DBC 文件和Excel文件相互转换；需要安装在matlab app中运行；
-Tips：用的是matlab2022b把包的app，2022b以后的版本可以直接运行；之前的请下载源码自行打包；
+Tips：app工具是用matlab2022b进行打包，2022b及以后的版本可以直接运行；之前版本请下载源码自行打包；
 # 下载&安装
 去到仓库主分支main下载所有的文件，把.zi文件解压之后，Dbc2Excel.mlappinstall文件直接拖到matlab的命令窗口，点击确认即可安装成功！
 ![Image_20240226170104](https://github.com/zhangyonggang316/DbcToExcel/assets/81631716/9b9b7d14-402b-42ac-bd3b-033892a406d5)
@@ -33,3 +33,5 @@ Tips：用的是matlab2022b把包的app，2022b以后的版本可以直接运行
 DBC名称：可以改写生成的DBC名字；
 sheetm名：加载Excel后显示所有的表单，通过选择“单独生成”，“集合生成”DBC文件；
 项目编号：节点通道：设置生成Excel的名字；
+# 致谢
+感谢曾经在皓耘工作并辛勤付出的同事，祝你们路途一帆风顺，所遇即所愿！
