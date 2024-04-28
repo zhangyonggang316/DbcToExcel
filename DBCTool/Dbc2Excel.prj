@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="2662706179" file="C:\Users\admin\Desktop\Matlab2022bProject\XCP\test\DBCTool\Dbc2Excel.prj" location="C:\Users\admin\Desktop\Matlab2022bProject\XCP\test\DBCTool" name="Dbc2Excel" target="target.mlapps" target-name="打包为 App">
+  <configuration build-checksum="1166102636" file="C:\Users\admin\Desktop\Matlab2022bProject\XCP\test\DBCTool\Dbc2Excel.prj" location="C:\Users\admin\Desktop\Matlab2022bProject\XCP\test\DBCTool" name="Dbc2Excel" target="target.mlapps" target-name="打包为 App">
     <param.appname>Dbc2Excel</param.appname>
     <param.authnamewatermark>吴审言，张勇刚</param.authnamewatermark>
     <param.email />
@@ -34,10 +34,10 @@
     <fileset.main>
       <file>${PROJECT_ROOT}\Dbc2Excel.mlapp</file>
     </fileset.main>
-    <fileset.depfun>
+    <fileset.depfun />
+    <fileset.resources>
       <file>${PROJECT_ROOT}\DemoExcelData.mat</file>
-    </fileset.depfun>
-    <fileset.resources />
+    </fileset.resources>
     <fileset.package />
     <build-deliverables>
       <file location="C:\Users\admin\Desktop\Matlab2022bProject\XCP\test" name="DBCTool" optional="false">C:\Users\admin\Desktop\Matlab2022bProject\XCP\test\DBCTool</file>
